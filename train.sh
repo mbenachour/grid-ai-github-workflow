@@ -1,1 +1,1 @@
-grid login --username ${{ secrets.GRID_USERNAME }} --key ${{ secrets.GRID_API_KEY }}
+grid login --username $GRID_USERNAME --key $GRID_API_KEY
