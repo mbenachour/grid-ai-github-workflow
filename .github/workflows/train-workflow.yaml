@@ -4,8 +4,8 @@ jobs:
   Train:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
       - run: pip install -r requirements.txt
       - run: echo "test "
       - run: echo " test"
-      - name: Check out repository code
-        uses: actions/checkout@v2
