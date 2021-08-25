@@ -1,10 +1,10 @@
 name: Grid.ai Training workflow
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Train-on-Grird.ai:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install requirements.txt
+      - run: pip install -r requirements.txt
       - run: echo "test "
       - run: echo " test"
       - name: Check out repository code
