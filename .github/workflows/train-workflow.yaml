@@ -8,4 +8,6 @@ jobs:
         uses: actions/checkout@v2
       - run: pip install -r requirements.txt
       - run: bash train.sh
-      - run: echo " test"
+        env:
+          GRID_USERNAME: ${{ secrets.GRID_USERNAME }}
+          GRID_API_KEY: ${{ secrets.GRID_API_KEY }}
