@@ -1,7 +1,7 @@
 name: Grid.ai Training workflow
 on: [push]
 jobs:
-  Train-on-Grird.ai:
+  Train:
     runs-on: ubuntu-latest
     steps:
       - run: pip install -r requirements.txt
