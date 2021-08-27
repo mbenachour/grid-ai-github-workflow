@@ -11,3 +11,4 @@ jobs:
         env:
           GRID_USERNAME: ${{ secrets.GRID_USERNAME }}
           GRID_API_KEY: ${{ secrets.GRID_API_KEY }}
+      - run: grid session ssh convid-ct
