@@ -6,7 +6,7 @@ ssh-keygen -t ed25519 -C "mohamed@mohamedbenachour.net" -f ~/.ssh/id_ed25519 -q 
 
 ls -la ~/.ssh/
 
-# grid ssh-keys add ct-key ~/.ssh/id_ed25519.pub
+grid ssh-keys add ct-key ~/.ssh/id_ed25519.pub
 
-# grid session ssh covid-ct
+grid session ssh covid-ct
 
