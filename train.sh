@@ -2,7 +2,7 @@
 
 grid login --username $GRID_USERNAME --key $GRID_API_KEY
 
-ssh-keygen -t ed25519 -C "mohamed@mohamedbenachour.net" -q -N ""
+ssh-keygen -t ed25519 -C "mohamed@mohamedbenachour.net" -f ~/.ssh/id_ed25519 -q -N ""
 
 ls -la ~/.ssh/
 
